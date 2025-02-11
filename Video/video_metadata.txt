@@ -1,0 +1,12 @@
+Duration: 00:00:06.77
+FPS: 30
+Resolution: 0x1
+
+Duration: 00:00:10.13
+FPS: 24
+Resolution: 0x1
+
+Duration: 00:00:42.97
+FPS: 25
+Resolution: 0x1
+
