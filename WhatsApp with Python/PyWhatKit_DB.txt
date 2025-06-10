@@ -8,3 +8,23 @@ Time: 13:20
 Phone Number: +34611105348
 Message: ⚠️ ALERT: The API-003 server has been down since 04:23h. Immediate intervention required.
 --------------------
+Date: 10/6/2025
+Time: 13:22
+Phone Number: +34611105348
+Message: ⚠️ ALERT: The API-003 server has been down since 04:23h. Immediate intervention required.
+--------------------
+Date: 10/6/2025
+Time: 13:31
+Phone Number: +1234567890
+Message: 🚨 ALERT: Found 9 ERROR logs in the system! Check immediately.
+--------------------
+Date: 10/6/2025
+Time: 13:34
+Phone Number: +34611105348
+Message: 🚨 ALERT: Found 9 ERROR logs in the system! Check immediately.
+--------------------
+Date: 10/6/2025
+Time: 13:38
+Phone Number: +34611105348
+Message: 🚨 ALERT: Found 15 ERROR logs in the system! Check immediately.
+--------------------
