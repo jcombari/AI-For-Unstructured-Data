@@ -28,3 +28,13 @@ Time: 19:46
 Phone Number: +34663588799
 Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
 --------------------
+Date: 10/6/2025
+Time: 19:54
+Phone Number: +34611105348
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
+--------------------
+Date: 10/6/2025
+Time: 19:56
+Phone Number: +34663588799
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
+--------------------
