@@ -33,3 +33,13 @@ Time: 13:41
 Phone Number: +34611105348
 Message: 🚨 ALERT: Found 9 ERROR logs in the system! Check immediately.
 --------------------
+Date: 10/6/2025
+Time: 16:48
+Phone Number: +12345678900
+Message: Hello! Here is the weekly sales report. Please check the attached PDF.
+--------------------
+Date: 10/6/2025
+Time: 16:49
+Phone Number: +34611105348
+Message: Hello! Here is the weekly sales report. Please check the attached PDF.
+--------------------
