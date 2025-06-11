@@ -1,45 +1,30 @@
 Date: 10/6/2025
-Time: 13:16
-Phone Number: +521234567890
-Message: ⚠️ ALERT: The API-003 server has been down since 04:23h. Immediate intervention required.
---------------------
-Date: 10/6/2025
-Time: 13:20
+Time: 19:31
 Phone Number: +34611105348
-Message: ⚠️ ALERT: The API-003 server has been down since 04:23h. Immediate intervention required.
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
 --------------------
 Date: 10/6/2025
-Time: 13:22
+Time: 19:33
+Phone Number: +34622205459
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
+--------------------
+Date: 10/6/2025
+Time: 19:36
 Phone Number: +34611105348
-Message: ⚠️ ALERT: The API-003 server has been down since 04:23h. Immediate intervention required.
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
 --------------------
 Date: 10/6/2025
-Time: 13:31
-Phone Number: +1234567890
-Message: 🚨 ALERT: Found 9 ERROR logs in the system! Check immediately.
+Time: 19:38
+Phone Number: +34622205459
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
 --------------------
 Date: 10/6/2025
-Time: 13:34
+Time: 19:44
 Phone Number: +34611105348
-Message: 🚨 ALERT: Found 9 ERROR logs in the system! Check immediately.
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
 --------------------
 Date: 10/6/2025
-Time: 13:38
-Phone Number: +34611105348
-Message: 🚨 ALERT: Found 15 ERROR logs in the system! Check immediately.
---------------------
-Date: 10/6/2025
-Time: 13:41
-Phone Number: +34611105348
-Message: 🚨 ALERT: Found 9 ERROR logs in the system! Check immediately.
---------------------
-Date: 10/6/2025
-Time: 16:48
-Phone Number: +12345678900
-Message: Hello! Here is the weekly sales report. Please check the attached PDF.
---------------------
-Date: 10/6/2025
-Time: 16:49
-Phone Number: +34611105348
-Message: Hello! Here is the weekly sales report. Please check the attached PDF.
+Time: 19:46
+Phone Number: +34663588799
+Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
 --------------------
