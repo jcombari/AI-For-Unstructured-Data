@@ -38,3 +38,8 @@ Time: 19:56
 Phone Number: +34663588799
 Message: Hello! Here is the weekly sales report. Download it here: https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/WhatsApp%20with%20Python/202500611_Weekly_Sales_Report.pdf
 --------------------
+Date: 12/6/2025
+Time: 17:56
+Phone Number: +34611105348
+Message: 🚀 Weekly Checkpoint Reminder: Let’s start the week strong! 💪
+--------------------
