@@ -32,6 +32,40 @@ Here you'll discover hands-on tutorials, guides, and tools to build your very ow
 
 ---
 
+## 🛠️ PDF Power Hacks
+
+Repositorio global sobre PDF Power Hacks 👉  
+https://github.com/jcombari/AI-For-Unstructured-Data/tree/main/PDF%20Power%20Hacks
+
+### 🟧 Tips para ORDENAR PDF
+
+✂️🧩 **Merge multiple PDFs in seconds with PyPDF2**  
+🔗 [Ver notebook](https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/PDF%20Power%20Hacks/20250616_Merge%20multiple%20PDFs%20in%20seconds%20with%20PyPDF2.ipynb)
+
+📄✂️ **Split a PDF by Chapters using PyPDF2**  
+🔗 [Ver notebook](https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/PDF%20Power%20Hacks/20250617_Split%20a%20PDF%20by%20Chapters%20using%20PyPDF2.ipynb)
+
+📄🗑️ **Delete Unwanted Pages with PdfWriter**  
+🔗 [Ver notebook](https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/PDF%20Power%20Hacks/20250618_Delete%20Unwanted%20Pages%20with%20PdfWriter.ipynb)
+
+🔄📄 **Reorder PDF Pages Any Way You Want**  
+🔗 [Ver notebook](https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/PDF%20Power%20Hacks/20250619_Rearranging%20PDF%20Pages%20with%20PyPDF2%20.ipynb)
+
+🖼️➡️ **Create Uncropped PNG→PDF & OCR Extract**  
+🔗 [Ver notebook](https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/PDF%20Power%20Hacks/20250701_Create%20Uncropped%20PNG%E2%86%92PDF%20%26%20OCR%20Extract.ipynb)
+
+---
+
+### 🟩 Tips OPTIMIZAR PDF
+
+🕵️‍♂️ **Detect and Fix Common PDF Structure Errors**  
+🔗 [Ver notebook](https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/PDF%20Power%20Hacks/20250702_Detect%20and%20Fix%2010%20Common%20PDF%20Structure%20Errors%20.ipynb)
+
+📦 **Compress PDF files without losing quality using fitz**  
+🔗 [Ver notebook](https://github.com/jcombari/AI-For-Unstructured-Data/blob/main/PDF%20Power%20Hacks/20250623_Compress%20PDF%20files%20without%20losing%20quality%20using%20fitz.ipynb)
+
+---
+
 ## 💡 Why Python? / ¿Por qué Python?
 
 Python cuenta con bibliotecas especializadas como:
