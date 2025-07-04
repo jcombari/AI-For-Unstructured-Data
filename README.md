@@ -54,4 +54,4 @@
    - Use Git to clone this repository and start exploring. 🚀  
    - Utiliza Git para clonar este repositorio y empezar a explorar. 🖥️💾  
    ```bash
-   git clone https://github.com/yourusername/AI-For-Unstructured-Data.git
+   git clone https://github.com/jcombari/AI-For-Unstructured-Data
