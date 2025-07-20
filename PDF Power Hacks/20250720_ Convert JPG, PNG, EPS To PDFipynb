@@ -1,6 +1,12 @@
 {
  "cells": [
   {
+   "cell_type": "markdown",
+   "id": "2ad8a028-e3a2-4bf9-a0f1-d876c62d6aeb",
+   "metadata": {},
+   "source": []
+  },
+  {
    "cell_type": "code",
    "execution_count": 1,
    "id": "be968bd1-933b-4cd7-a1a9-802bf1b64537",
@@ -46,45 +52,6 @@
     "        images_for_merge.append(img)\n",
     "\n",
     "# Save all images into a single PDF if any found\n",
-    "if images_for_merge:\n",
-    "    merged_pdf_path = output_dir / \"202507220_combined_images.pdf\"\n",
-    "    images_for_merge[0].save(\n",
-    "        merged_pdf_path,\n",
-    "        save_all=True,\n",
-    "        append_images=images_for_merge[1:]\n",
-    "    )\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "e793bf35-138d-48ed-8149-4ef17d6700e8",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "from PIL import Image\n",
-    "from pathlib import Path\n",
-    "\n",
-    "input_dir = Path(\"202507220_input_images\")\n",
-    "output_dir = Path(\"202507220_output_pdfs\")\n",
-    "output_dir.mkdir(parents=True, exist_ok=True)\n",
-    "\n",
-    "valid_exts = [\".jpg\", \".jpeg\", \".png\", \".eps\"]\n",
-    "\n",
-    "images_for_merge = []\n",
-    "\n",
-    "for img_path in input_dir.glob(\"*\"):\n",
-    "    if img_path.suffix.lower() in valid_exts:\n",
-    "        try:\n",
-    "            img = Image.open(img_path).convert(\"RGB\")\n",
-    "        except OSError as e:\n",
-    "            print(f\"Warning: Could not process {img_path.name}: {e}\")\n",
-    "            continue  # Skip EPS files without Ghostscript or any problematic file\n",
-    "        \n",
-    "        pdf_name = output_dir / f\"202507220_{img_path.stem}.pdf\"\n",
-    "        img.save(pdf_name, \"PDF\")\n",
-    "        images_for_merge.append(img)\n",
-    "\n",
     "if images_for_merge:\n",
     "    merged_pdf_path = output_dir / \"202507220_combined_images.pdf\"\n",
     "    images_for_merge[0].save(\n",
