@@ -2,25 +2,10 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": null,
    "id": "8926e930-351d-4d4c-9486-e75c853e5c87",
    "metadata": {},
-   "outputs": [
-    {
-     "ename": "OSError",
-     "evalue": "Unable to locate Ghostscript on paths",
-     "output_type": "error",
-     "traceback": [
-      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[1;31mOSError\u001b[0m                                   Traceback (most recent call last)",
-      "Cell \u001b[1;32mIn[1], line 19\u001b[0m\n\u001b[0;32m     16\u001b[0m \u001b[38;5;28;01mfor\u001b[39;00m img_path \u001b[38;5;129;01min\u001b[39;00m input_dir\u001b[38;5;241m.\u001b[39mglob(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m*\u001b[39m\u001b[38;5;124m\"\u001b[39m):\n\u001b[0;32m     17\u001b[0m     \u001b[38;5;28;01mif\u001b[39;00m img_path\u001b[38;5;241m.\u001b[39msuffix\u001b[38;5;241m.\u001b[39mlower() \u001b[38;5;129;01min\u001b[39;00m valid_exts:\n\u001b[0;32m     18\u001b[0m         \u001b[38;5;66;03m# Open the image and convert to RGB (required for PDF)\u001b[39;00m\n\u001b[1;32m---> 19\u001b[0m         img \u001b[38;5;241m=\u001b[39m Image\u001b[38;5;241m.\u001b[39mopen(img_path)\u001b[38;5;241m.\u001b[39mconvert(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mRGB\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n\u001b[0;32m     21\u001b[0m         \u001b[38;5;66;03m# Save individual PDF with proper prefix\u001b[39;00m\n\u001b[0;32m     22\u001b[0m         pdf_name \u001b[38;5;241m=\u001b[39m output_dir \u001b[38;5;241m/\u001b[39m \u001b[38;5;124mf\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m202507220_\u001b[39m\u001b[38;5;132;01m{\u001b[39;00mimg_path\u001b[38;5;241m.\u001b[39mstem\u001b[38;5;132;01m}\u001b[39;00m\u001b[38;5;124m.pdf\u001b[39m\u001b[38;5;124m\"\u001b[39m\n",
-      "File \u001b[1;32m~\\anaconda3\\Lib\\site-packages\\PIL\\Image.py:995\u001b[0m, in \u001b[0;36mImage.convert\u001b[1;34m(self, mode, matrix, dither, palette, colors)\u001b[0m\n\u001b[0;32m    992\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m mode \u001b[38;5;129;01min\u001b[39;00m (\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mBGR;15\u001b[39m\u001b[38;5;124m\"\u001b[39m, \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mBGR;16\u001b[39m\u001b[38;5;124m\"\u001b[39m, \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mBGR;24\u001b[39m\u001b[38;5;124m\"\u001b[39m):\n\u001b[0;32m    993\u001b[0m     deprecate(mode, \u001b[38;5;241m12\u001b[39m)\n\u001b[1;32m--> 995\u001b[0m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mload()\n\u001b[0;32m    997\u001b[0m has_transparency \u001b[38;5;241m=\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mtransparency\u001b[39m\u001b[38;5;124m\"\u001b[39m \u001b[38;5;129;01min\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39minfo\n\u001b[0;32m    998\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;129;01mnot\u001b[39;00m mode \u001b[38;5;129;01mand\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mmode \u001b[38;5;241m==\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mP\u001b[39m\u001b[38;5;124m\"\u001b[39m:\n\u001b[0;32m    999\u001b[0m     \u001b[38;5;66;03m# determine default mode\u001b[39;00m\n",
-      "File \u001b[1;32m~\\anaconda3\\Lib\\site-packages\\PIL\\EpsImagePlugin.py:405\u001b[0m, in \u001b[0;36mEpsImageFile.load\u001b[1;34m(self, scale, transparency)\u001b[0m\n\u001b[0;32m    402\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m \u001b[38;5;21mload\u001b[39m(\u001b[38;5;28mself\u001b[39m, scale\u001b[38;5;241m=\u001b[39m\u001b[38;5;241m1\u001b[39m, transparency\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;01mFalse\u001b[39;00m):\n\u001b[0;32m    403\u001b[0m     \u001b[38;5;66;03m# Load EPS via Ghostscript\u001b[39;00m\n\u001b[0;32m    404\u001b[0m     \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mtile:\n\u001b[1;32m--> 405\u001b[0m         \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mim \u001b[38;5;241m=\u001b[39m Ghostscript(\u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mtile, \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39msize, \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mfp, scale, transparency)\n\u001b[0;32m    406\u001b[0m         \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_mode \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mim\u001b[38;5;241m.\u001b[39mmode\n\u001b[0;32m    407\u001b[0m         \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_size \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mim\u001b[38;5;241m.\u001b[39msize\n",
-      "File \u001b[1;32m~\\anaconda3\\Lib\\site-packages\\PIL\\EpsImagePlugin.py:74\u001b[0m, in \u001b[0;36mGhostscript\u001b[1;34m(tile, size, fp, scale, transparency)\u001b[0m\n\u001b[0;32m     72\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;129;01mnot\u001b[39;00m has_ghostscript():\n\u001b[0;32m     73\u001b[0m     msg \u001b[38;5;241m=\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mUnable to locate Ghostscript on paths\u001b[39m\u001b[38;5;124m\"\u001b[39m\n\u001b[1;32m---> 74\u001b[0m     \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mOSError\u001b[39;00m(msg)\n\u001b[0;32m     76\u001b[0m \u001b[38;5;66;03m# Unpack decoder tile\u001b[39;00m\n\u001b[0;32m     77\u001b[0m decoder, tile, offset, data \u001b[38;5;241m=\u001b[39m tile[\u001b[38;5;241m0\u001b[39m]\n",
-      "\u001b[1;31mOSError\u001b[0m: Unable to locate Ghostscript on paths"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "from PIL import Image\n",
     "from pathlib import Path\n",
@@ -50,6 +35,58 @@
     "        images_for_merge.append(img)\n",
     "\n",
     "# Save all images into a single PDF if any found\n",
+    "if images_for_merge:\n",
+    "    merged_pdf_path = output_dir / \"202507220_combined_images.pdf\"\n",
+    "    images_for_merge[0].save(\n",
+    "        merged_pdf_path,\n",
+    "        save_all=True,\n",
+    "        append_images=images_for_merge[1:]\n",
+    "    )\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "e793bf35-138d-48ed-8149-4ef17d6700e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Warning: Could not process imagenes (1).eps: Unable to locate Ghostscript on paths\n",
+      "Warning: Could not process imagenes (2).eps: Unable to locate Ghostscript on paths\n",
+      "Warning: Could not process imagenes (3).eps: Unable to locate Ghostscript on paths\n",
+      "Warning: Could not process imagenes (4).eps: Unable to locate Ghostscript on paths\n",
+      "Warning: Could not process imagenes (5).eps: Unable to locate Ghostscript on paths\n",
+      "Warning: Could not process imagenes (6).eps: Unable to locate Ghostscript on paths\n"
+     ]
+    }
+   ],
+   "source": [
+    "from PIL import Image\n",
+    "from pathlib import Path\n",
+    "\n",
+    "input_dir = Path(\"202507220_input_images\")\n",
+    "output_dir = Path(\"202507220_output_pdfs\")\n",
+    "output_dir.mkdir(parents=True, exist_ok=True)\n",
+    "\n",
+    "valid_exts = [\".jpg\", \".jpeg\", \".png\", \".eps\"]\n",
+    "\n",
+    "images_for_merge = []\n",
+    "\n",
+    "for img_path in input_dir.glob(\"*\"):\n",
+    "    if img_path.suffix.lower() in valid_exts:\n",
+    "        try:\n",
+    "            img = Image.open(img_path).convert(\"RGB\")\n",
+    "        except OSError as e:\n",
+    "            print(f\"Warning: Could not process {img_path.name}: {e}\")\n",
+    "            continue  # Skip EPS files without Ghostscript or any problematic file\n",
+    "        \n",
+    "        pdf_name = output_dir / f\"202507220_{img_path.stem}.pdf\"\n",
+    "        img.save(pdf_name, \"PDF\")\n",
+    "        images_for_merge.append(img)\n",
+    "\n",
     "if images_for_merge:\n",
     "    merged_pdf_path = output_dir / \"202507220_combined_images.pdf\"\n",
     "    images_for_merge[0].save(\n",
